@@ -118,11 +118,24 @@ export default function Home() {
                 <DrawerTitle>Github Repositories</DrawerTitle>
                 <DrawerClose />
               </DrawerHeader>
-              <DrawerDescription>
-                <p>
-                  This is the README.md file for the project. Please read this
-                  file to understand the objectives of this project
-                </p>
+              <DrawerDescription
+                className="flex flex-col items-center justify-center space-y-5"
+                style={{ width: "100%" }}
+              >
+                <a
+                  referrerPolicy="no-referrer"
+                  target="_blank"
+                  href="https://github.com/arshamhusen/mpao-core-api"
+                >
+                  Core API
+                </a>
+                <a
+                  referrerPolicy="no-referrer"
+                  target="_blank"
+                  href="https://github.com/arshamhusen/my-tasks-mpao-client"
+                >
+                  Client
+                </a>
               </DrawerDescription>
 
               <DrawerFooter></DrawerFooter>
